@@ -16,8 +16,8 @@
 </head>
 
 <body class="body">
-    <header class="header section">
-        <div class="container header-container">
+    <header class="header">
+        <div class="container">
             <a class="logo" href="./index.html"><span lang="en"><span class="logo-web">Web</span>Studio</span></a>
             <nav>
                 <ul class="site-nav">
@@ -27,9 +27,14 @@
                 </ul>
             </nav>
             <ul class="site-auth">
-                <li class="contacts-list"><a class="contacts-link"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="contacts-list"><a class="contacts-link" href="tel:380961111111">+38 096 111 11 11</a></li>
+                <li class="contacts-list"><a class="contacts-link" href="mailto:info@devstudio.com"><svg
+                            class="contact-link-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-envelope-hover"></use>
+                        </svg>info@devstudio.com</a></li>
+                <li class="contacts-list"><a class="contacts-link" href="tel:380961111111"><svg
+                            class="contact-link-icon" width="16" height="12">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -48,7 +53,7 @@
                 <!-- cards -->
                 <ul class="card-set">
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio1.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Технокряк</h2>
@@ -59,7 +64,7 @@
 
 
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio2.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Постер New Orlean vs Golden Star</h2>
@@ -70,7 +75,7 @@
 
 
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio3.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Ресторан Seafood</h2>
@@ -81,7 +86,7 @@
 
 
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio4.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Проєкт Prime</h2>
@@ -91,7 +96,7 @@
                     </li>
 
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio5.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Проєкт Boxes</h2>
@@ -102,7 +107,7 @@
 
 
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio6.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Inspiration has no Borders</h2>
@@ -113,7 +118,7 @@
 
 
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio7.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Видання Limited Edition</h2>
@@ -124,7 +129,7 @@
 
 
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio8.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Проєкт LAB</h2>
@@ -135,7 +140,7 @@
 
 
                     <li class="card-portfolio">
-                        <a href="">
+                        <a class="card-portfolio-link" href="">
                             <img src="./images/portfolio/portfolio9.jpg" alt="" width="370" height="294" />
                             <div class="box">
                                 <h2 class="card-title-portfolio">Growing Business</h2>
@@ -152,60 +157,62 @@
 
     <footer class="footer footer-list">
         <div class="container footer-section">
-          <div class="footer-section-address">
-          <a class="logo-footer" href="/"><span lang="en"><span class="logo-web">Web</span><span
-                class="logo-studio">Studio</span></span></a>
-            <address>
-              <ul>
-                <li class="address-list">
-                  <a class="address" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
-                    rel="noopener noreferrer">м.
-                    Київ, пр-т Лесі
-                    Українки, 26</a>
-                </li>
-                <li class="address-list"><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="address-list"><a class="address-link" href="tel:380961111111">+38 096 111 11 11</a></li>
-              </ul>
-            </address>
-          </div>
-            <div class="soc-links-footer-section">
-              <!-- приєднуйтесь-->
-              <p class="soc-links-footer-title">приєднуйтесь</p>
-              <ul class="soc-links-footer-list">
-                <li class="soc-links-footer-item">
-                  <a href="" class="soc-links-footer">
-                    <svg class="soc-links-footer-link" width="20" height="20">
-                      <use href="./images/icons.svg#icon-instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="soc-links-footer-item">
-                  <a href="" class="soc-links-footer">
-                    <svg class="soc-links-footer-link" width="20" height="20">
-                      <use href="./images/icons.svg#icon-twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="soc-links-footer-item">
-                  <a href="" class="soc-links-footer">
-                    <svg class="soc-links-footer-link" width="20" height="20">
-                      <use href="./images/icons.svg#icon-facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="soc-links-footer-item">
-                  <a href="" class="soc-links-footer">
-                    <svg class="soc-links-footer-link" width="20" height="20">
-                      <use href="./images/icons.svg#icon-linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
+            <div class="footer-section-address">
+                <a class="logo-footer" href="/"><span lang="en"><span class="logo-web">Web</span><span
+                            class="logo-studio">Studio</span></span></a>
+                <address>
+                    <ul>
+                        <li class="address-list">
+                            <a class="address" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
+                                rel="noopener noreferrer">м.
+                                Київ, пр-т Лесі
+                                Українки, 26</a>
+                        </li>
+                        <li class="address-list"><a class="address-link"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        </li>
+                        <li class="address-list"><a class="address-link" href="tel:380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </address>
             </div>
-          
+            <div class="soc-links-footer-section">
+                <!-- приєднуйтесь-->
+                <p class="soc-links-footer-title">приєднуйтесь</p>
+                <ul class="soc-links-footer-list">
+                    <li class="soc-links-footer-item">
+                        <a href="" class="soc-links-footer">
+                            <svg class="soc-links-footer-link" width="20" height="20">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="soc-links-footer-item">
+                        <a href="" class="soc-links-footer">
+                            <svg class="soc-links-footer-link" width="20" height="20">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="soc-links-footer-item">
+                        <a href="" class="soc-links-footer">
+                            <svg class="soc-links-footer-link" width="20" height="20">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="soc-links-footer-item">
+                        <a href="" class="soc-links-footer">
+                            <svg class="soc-links-footer-link" width="20" height="20">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
-      </footer>
+    </footer>
 </body>
 
 </html>
