@@ -220,6 +220,7 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
   height: 120px;
+  height: 120px;
 }
 .job-list,
 .team-title {
@@ -457,13 +458,13 @@ img {
   display: flex;
 }
 .footer-section {
-  display: flex;
-  align-items: baseline;
+   display: flex;
+   align-items: baseline;
 }
 .soc-links-footer-section {
 }
 .footer-section-address {
-  margin-right: 70px;
+    margin-right: 70px;
 }
 /* Portfolio */
 .filters {
